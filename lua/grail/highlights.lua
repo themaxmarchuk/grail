@@ -68,7 +68,7 @@ highlights.generate_syntax = function(palette, options)
 		IncSearch = syntax_entry(palette.bg0, palette.grey7),
 		ColorColumn = syntax_entry(palette.none, palette.bg1),
 		Conceal = syntax_entry(palette.bg5, palette.none),
-		Cursor = syntax_entry(palette.orangedull, palette.none, { styles.reverse }),
+		Cursor = syntax_entry(palette.bg0, palette.orangedull),
 		lCursor = { link = "Cursor" },
 		CursorIM = { link = "Cursor" },
 		CursorLine = syntax_entry(palette.none, palette.bg1),
